@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/homescreen"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -58,5 +59,137 @@
             android:textAppearance="@style/placeholder"
             android:translationY="-0.15sp" />
     </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/genre"
+        android:layout_width="160dp"
+        android:layout_height="155dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="19dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="131dp"
+        android:background="@drawable/genres">
+
+        <ImageView
+            android:id="@+id/mask_group"
+            android:layout_width="134dp"
+            android:layout_height="134dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="50dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="58dp"
+            app:srcCompat="@drawable/gen"
+            android:contentDescription="@string/todo" />
+
+
+
+        <TextView
+            android:id="@+id/genres"
+            android:layout_width="120dp"
+            android:layout_height="32dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/genres"
+            android:textAppearance="@style/genres"
+            android:gravity="center_vertical"
+            />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/podcast"
+        android:layout_width="160dp"
+        android:layout_height="155dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="195dp"
+        android:layout_marginTop="131dp"
+        android:background="@drawable/podcast">
+
+        <TextView
+            android:id="@+id/podcasts"
+            android:layout_width="120dp"
+            android:layout_height="32dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center_vertical"
+            android:text="@string/podcasts"
+            android:textAppearance="@style/podcasts" />
+
+        <ImageView
+            android:id="@+id/pdcst"
+            android:layout_width="134dp"
+            android:layout_height="134dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="73dp"
+            android:contentDescription="@string/yyy"
+            app:srcCompat="@drawable/pdc" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/friend"
+        android:layout_width="160dp"
+        android:layout_height="155dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="19dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="302dp"
+        android:background="@drawable/friends">
+
+        <TextView
+            android:id="@+id/friends"
+            android:layout_width="120dp"
+            android:layout_height="32dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center_vertical"
+            android:text="@string/friends"
+            android:textAppearance="@style/podcasts" />
+
+        <ImageView
+            android:id="@+id/vector_478"
+            android:layout_width="136dp"
+            android:layout_height="122dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="-10dp"
+            app:srcCompat="@drawable/frd"
+            android:contentDescription="@string/yyy" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/feeds"
+        android:layout_width="160dp"
+        android:layout_height="155dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="195dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="302dp"
+        android:background="@drawable/feed">
+
+        <TextView
+            android:id="@+id/feed"
+            android:layout_width="120dp"
+            android:layout_height="32dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/feed"
+            android:textAppearance="@style/feed"
+            android:gravity="top" />
+
+        <ImageView
+            android:id="@+id/feedd"
+            android:layout_width="136dp"
+            android:layout_height="122dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="-3dp"
+            android:layout_marginBottom="-10dp"
+            android:contentDescription="@string/yyy"
+            app:srcCompat="@drawable/fd" />
+
+    </RelativeLayout>
 
 </RelativeLayout>
