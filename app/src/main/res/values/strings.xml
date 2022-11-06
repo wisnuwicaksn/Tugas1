@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">mymusicmusc</string>
+
+    <string name="home">
+
+    HOME
+    </string>
+
+    <string name="placeholder">
+
+    Search by music
+    </string>
+    <string name="todo">todo</string>
+    <string name="genres">Genres</string>
+    <string name="podcasts">Podcasts</string>
+    <string name="friends">Friends</string>
+    <string name="feed">Feed</string>
+    <string name="apricots">Apricots</string>
+    <string name="bicep">Bicep</string>
+    <string name="yyy">TODO</string>
+</resources>

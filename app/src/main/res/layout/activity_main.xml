@@ -1,10 +1,62 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/homescreen"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_alignParentTop="true"
     android:background="@drawable/home">
+
+    <TextView
+        android:id="@+id/home"
+        android:layout_width="52dp"
+        android:layout_height="24dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="11dp"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="@string/home"
+        android:textAppearance="@style/home" />
+
+    <View
+        android:id="@+id/icon_setting"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="20dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="13dp"
+        android:background="@drawable/set"
+        />
+
+    <View
+        android:id="@+id/icon_mail"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="20dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="13dp"
+        android:background="@drawable/mail"/>
+
+    <LinearLayout
+        android:id="@+id/search_norm"
+        android:layout_width="335dp"
+        android:layout_height="44dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="65dp"
+        android:background="@drawable/search_norm">
+
+        <TextView
+            android:id="@+id/placeholder"
+            android:layout_width="125dp"
+            android:layout_height="22dp"
+            android:layout_marginStart="120dp"
+            android:layout_marginTop="8dp"
+            android:gravity="top"
+            android:lineSpacingExtra="0sp"
+            android:text="@string/placeholder"
+            android:textAppearance="@style/placeholder"
+            android:translationY="-0.15sp" />
+    </LinearLayout>
 
 </RelativeLayout>
